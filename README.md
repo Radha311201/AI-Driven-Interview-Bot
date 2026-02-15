@@ -84,13 +84,3 @@ pytest
 ## License
 
 This project is provided under the MIT License unless otherwise noted in repository metadata.
-
----
-
-If you'd like, I can also:
-
-- Create a `requirements.txt` with suggested packages.
-- Add a minimal `run.py` entrypoint and example tests.
-- Add GitHub Actions for CI to run tests and linters.
-
-If you want any of those, tell me which and I'll add them next.
