@@ -32,6 +32,11 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+To deactivate virtual env when done 
+```bash
+deactivate
+```
+
 3. Install dependencies:
 
 ```bash
@@ -46,11 +51,9 @@ Adjust the module or entrypoint below to match the project's layout. Example com
 
 ```bash
 # Run the main program (replace with your entry module/file)
-python -m ai_interview_bot
-
-# Or if there is a script named run.py
-python run.py
+puvicorn app.main:app --reload
 ```
+
 
 ## Configuration
 
