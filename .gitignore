@@ -1,0 +1,14 @@
+# Python virtualenvs
+.venv/
+venv/
+
+# Bytecode
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
